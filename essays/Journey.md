@@ -9,6 +9,8 @@ labels:
   - Engineering
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/Javascript.png">
+
 ## Previous Background
 
 Before facing Javascript, I learned and experienced other languages, C#, C++, and Java. I have been working with C# and C++ mainly and those are what I prefer the most. 
