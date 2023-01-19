@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/Javascript.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/Javascript.png">
 
 ## Previous Background
 
