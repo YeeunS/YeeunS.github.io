@@ -39,8 +39,7 @@
       "studyType": "B.S.",
       "startDate": "2020-01-13",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": "",     
     }
   ],
   "work": [
@@ -55,7 +54,6 @@
         "Update the website and develop different servers",
         "Design and build students' study materials for NICE program"
       ]
-  
     }
   ],
   "awards": [
