@@ -11,9 +11,7 @@ labels:
 
 ## Previous Background
 
-Before facing Javascript, 
-
-I learned and experienced other languages, C#, C++, and Java. I have been working with C# and C++ mainly and those are what I prefer the most. 
+Before facing Javascript, I learned and experienced other languages, C#, C++, and Java. I have been working with C# and C++ mainly and those are what I prefer the most. 
 As I learned what Javascript is, it brought my attention to the difference between Javascript and other programming languages. 
 
 The main difference is that it can be used in both the front-end and back-end of web development, and all non-primitive data types in Javascript are actually objects. 
