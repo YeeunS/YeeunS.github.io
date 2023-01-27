@@ -49,6 +49,7 @@ Could you provide some solid insight into the details that lead to the different
 It might also be interesting to point out the differences between CPU/cache architectures, by providing a similar graph for these CPUs.
 
 ```
+[Smart question from StackOverflow](https://stackoverflow.com/questions/8547778/why-are-elementwise-additions-much-faster-in-separate-loops-than-in-a-combined-l) 
 
 Here you can see that the developer provides what she/he has a problem, and asks for solid insight into the details regarding the issues. And also, it clearly describes the sufficient information that helps to understand what the point of the problem is. Providing the full code (examples) helps to analyze the problem specifically, asking for a more technical method to solve the problem. With 2415 votes, we can see that this is a well-prepared and organized question that the author was provided with the precise solutions.
 
@@ -63,6 +64,7 @@ Is there a simple and uncomplicated way to do this in java? I want to calculate 
 
 Thanks.
 ```
+[Not-smart question from StackOverflow](https://stackoverflow.com/questions/7695763/calculate-with-java)
 Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail. 
 
 ## Thoughts
