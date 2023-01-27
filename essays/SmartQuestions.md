@@ -9,7 +9,7 @@ labels:
   - smart questions -StackOverflow
 ---
 
-<img width="300px" src="../img/smartquestions.jpeg">
+<img width="300px" class="rounded float-start pe-4" src="../img/smartquestions.jpeg">
 
 ## Introduction: Ask and Answer the questions in smart a way
 
@@ -23,9 +23,15 @@ Here are examples of smart question and not-smart question.
 
 ## Example1: A Smart Question
 
+<img width="200px" class="rounded float-start pe-4" src="../img/smartquestion1.jpeg">
+<img width="200px" class="rounded float-start pe-4" src="../img/smartquestion2.jpeg">
+<img width="200px" class="rounded float-start pe-4" src="../img/smartquestion3.jpeg">
+
 Here you can see that the developer provides what she/he has a problem, and asks for solid insight into the details regarding the issues. And also, it clearly describes the sufficient information that helps to understand what the point of the problem is. Providing the full code (examples) helps to analyze the problem specifically, asking for a more technical method to solve the problem. With 2415 votes, we can see that this is a well-prepared and organized question that the author was provided with the precise solutions.
 
 ## Example2: A Not-Smart Question
+
+<img width="200px" class="rounded float-start pe-4" src="../img/badquestion.jpeg">
 
 Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail. 
 
