@@ -11,7 +11,7 @@ labels:
 
 <img class="img-fluid" src="../img/smartquestions.jpeg">
 
-## Introduction: Ask and Answer the questions in smart a way
+## Introduction: Ask and Answer the Questions in a Smart Way
 
 As a strong way of software engineering skills, communication is the most important aspect to handle technical issues. Now the use of open resources has been used widely, we can encounter numerous questions that require professional answers. And also we can realize that there are many people who want the answers without any steps, only focusing on the conclusion. This is not an appropriate approach when you face difficulties in the software development world. When you need help from technicians, it is essential to prepare how to ask questions before you get into the problem solving process. 
 
