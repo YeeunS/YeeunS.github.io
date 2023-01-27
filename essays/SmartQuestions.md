@@ -9,7 +9,7 @@ labels:
   - smart questions -StackOverflow
 ---
 
-<img class="img-fluid" src="../img/Javascript.png">
+<img width="300px" src="../img/smartquestions.jpeg">
 
 ## Introduction: Ask and Answer the questions in smart a way
 
