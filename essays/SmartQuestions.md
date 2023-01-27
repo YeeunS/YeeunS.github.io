@@ -65,6 +65,7 @@ Is there a simple and uncomplicated way to do this in java? I want to calculate 
 Thanks.
 ```
 [Not-smart question from StackOverflow](https://stackoverflow.com/questions/7695763/calculate-with-java)
+
 Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail. 
 
 ## Thoughts
