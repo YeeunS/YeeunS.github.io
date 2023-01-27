@@ -23,12 +23,47 @@ Here are examples of smart question and not-smart question.
 
 ## Example1: A Smart Question
 
-<img width="300px" src="../img/smartquestion1.jpeg"> 
-<img width="300px" src="../img/smartquestion2.jpeg"><img width="300px" src="../img/smartquestion3.jpeg"> Here you can see that the developer provides what she/he has a problem, and asks for solid insight into the details regarding the issues. And also, it clearly describes the sufficient information that helps to understand what the point of the problem is. Providing the full code (examples) helps to analyze the problem specifically, asking for a more technical method to solve the problem. With 2415 votes, we can see that this is a well-prepared and organized question that the author was provided with the precise solutions.
+```
+Suppose a1, b1, c1, and d1 point to heap memory, and my numerical code has the following core loop.
+
+const int n = 100000;
+
+for (int j = 0; j < n; j++) {
+    a1[j] += b1[j];
+    c1[j] += d1[j];
+}
+This loop is executed 10,000 times via another outer for loop. To speed it up, I changed the code to:
+
+for (int j = 0; j < n; j++) {
+    a1[j] += b1[j];
+}
+
+for (int j = 0; j < n; j++) {
+    c1[j] += d1[j];
+}
+
+The question turned out to be of no relevance, as the behavior severely depends on the sizes of the arrays (n) and the CPU cache. So if there is further interest, I rephrase the question:
+
+Could you provide some solid insight into the details that lead to the different cache behaviors as illustrated by the five regions on the following graph?
+
+It might also be interesting to point out the differences between CPU/cache architectures, by providing a similar graph for these CPUs.
+
+```
+
+Here you can see that the developer provides what she/he has a problem, and asks for solid insight into the details regarding the issues. And also, it clearly describes the sufficient information that helps to understand what the point of the problem is. Providing the full code (examples) helps to analyze the problem specifically, asking for a more technical method to solve the problem. With 2415 votes, we can see that this is a well-prepared and organized question that the author was provided with the precise solutions.
 
 ## Example2: A Not-Smart Question
 
-<img width="300px" src="../img/badquestion.jpeg"> Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail. 
+```
+Q: Calculate with java?
+
+I don't know the right name in english when you want to calculate a number with a upper small number besides. Like 1,5 with a small 3 besides (the calculation of 1,5 * 1,5 * 1,5)
+
+Is there a simple and uncomplicated way to do this in java? I want to calculate the volume. I hope you understand my question.
+
+Thanks.
+```
+Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail. 
 
 ## Thoughts
 
