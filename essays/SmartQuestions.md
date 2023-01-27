@@ -42,11 +42,14 @@ for (int j = 0; j < n; j++) {
     c1[j] += d1[j];
 }
 
-The question turned out to be of no relevance, as the behavior severely depends on the sizes of the arrays (n) and the CPU cache. So if there is further interest, I rephrase the question:
+The question turned out to be of no relevance, as the behavior severely depends on the sizes of the arrays (n) and the CPU cache. 
+So if there is further interest, I rephrase the question:
 
-Could you provide some solid insight into the details that lead to the different cache behaviors as illustrated by the five regions on the following graph?
+Could you provide some solid insight into the details that lead to the different cache behaviors 
+as illustrated by the five regions on the following graph?
 
-It might also be interesting to point out the differences between CPU/cache architectures, by providing a similar graph for these CPUs.
+It might also be interesting to point out the differences between CPU/cache architectures, 
+by providing a similar graph for these CPUs.
 
 ```
 [Smart question from StackOverflow](https://stackoverflow.com/questions/8547778/why-are-elementwise-additions-much-faster-in-separate-loops-than-in-a-combined-l) 
@@ -58,9 +61,11 @@ Here you can see that the developer provides what she/he has a problem, and asks
 ```
 Q: Calculate with java?
 
-I don't know the right name in english when you want to calculate a number with a upper small number besides. Like 1,5 with a small 3 besides (the calculation of 1,5 * 1,5 * 1,5)
+I don't know the right name in english when you want to calculate a number with a upper small number besides. 
+Like 1,5 with a small 3 besides (the calculation of 1,5 * 1,5 * 1,5)
 
-Is there a simple and uncomplicated way to do this in java? I want to calculate the volume. I hope you understand my question.
+Is there a simple and uncomplicated way to do this in java? 
+I want to calculate the volume. I hope you understand my question.
 
 Thanks.
 ```
