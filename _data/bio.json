@@ -10,16 +10,14 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "YeeunS", "url": "http://github.com/YeeunS" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/yeeunshin5" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "linkedin", "username": "mollymaluhia", "url": "www.linkedin.com/in/yeeunshin5" },
+      { "network": "instagram", "username": "molly", "url": "http://instagram.com/yeeunloves" }
     ]
   },
   "interests": [
     { "name": "Interactive media" },
     { "name": "Algorithms" },
     { "name": "Software Engineering" },
-    { "name": "AI" },
     { "name": "3D Graphics" }
   ],
   "skills": [
