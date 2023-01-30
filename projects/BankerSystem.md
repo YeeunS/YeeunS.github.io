@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/Banking.png
 title: "Banker System"
 date: 2022
 published: true
