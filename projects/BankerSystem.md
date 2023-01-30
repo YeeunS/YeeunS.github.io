@@ -30,7 +30,7 @@ In the database part, compared to the project 1 built by C#, we also used constr
 
 Another difference between project 1 and 2 is that we implemented debug mode using preprocessor directives, instead of command line arguments. When we run the debug mode executable, additional output was printed on the screen such as the name of functions called and parameters passed. 
 
-Here is the source code: 
+[Here is the source code](https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Banker)
 
 What I could learn from this project is that the initial design of the program is essential. All I had to do was to implement pre-designed functions that required specific functions. It brought my previous experience that I used to start building the program without any pre-frame of the work. In that sense, this project became a valuable exercise for me as a guideline for future projects to be carried out, not only in the college but also in my future work field. 
 
