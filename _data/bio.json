@@ -22,11 +22,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "Linux", "Windows" ]
     }
   ],
   "education": [
@@ -36,6 +36,13 @@
       "studyType": "B.S.",
       "startDate": "2020-01-13",
       "endDate": "Present",     
+    },
+    {
+      "institution": "Sookmyung's Women's University, Seoul, South Korea",
+      "area": "Psychology",
+      "studyType": "B.A.",
+      "startDate": "2017-03",
+      "endDate": "2019-12",     
     }
   ],
   "work": [
@@ -57,7 +64,7 @@
       "title": "International Undergraduate Student Scholarship",
       "date": "2020-Present",
       "awarder": "University of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen who have GPA 3.0 above."
+      "summary": "Scholarships awarded to incoming freshmen who have a 3.8 GPA upon the time of application to UH Manoa."
     },
     {
       "title": "ISS Merit Scholarship",
@@ -76,7 +83,13 @@
       "date": "2021",
       "awarder": "University of Hawaii",
       "summary": "Scholarships awarded to students who enrolled the summer semester with GPA 2.5 above."
-    }
+    },
+    {
+      "title": "Dean's List",
+      "date": "Fall 2020-Spring 2022",
+      "awarder": "University of Hawaii",
+      "summary": "The Dean’s List recognizes students who have a superior academic record, i.e., a minimum current grade point average of 3.5 for 12 or more credits of academic coursework."
+    }  
   ],
   "references": [
     {
