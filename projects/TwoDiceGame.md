@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Banking-square.jpeg
+image: img/Diceimage.jpeg
 title: "Graphical Two-Dice Pig Game"
 date: 2021
 published: true
