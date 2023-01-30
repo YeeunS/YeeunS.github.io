@@ -61,7 +61,7 @@ public TwoDicePigPanel(String player1Name, String player2Name) {
   
 ``
 
-[Here is the source code.]
+[Here is the source code.](https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Dice)
 
 To wrap up the entire learning of Java, this project helped to understand and make a frame of the knowledge regarding what the programming is. Java was complicated for newbies to enter the software engineering field, but I could step forward to the next level of development with the various assignments and projects during the class.
 
