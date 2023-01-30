@@ -30,7 +30,7 @@ To make the program function, it should add the following functionality to it.
 
 Here is the code of how it works.
 
-``
+```
 public TwoDicePigPanel(String player1Name, String player2Name) {
     String player1Name1 = JOptionPane.showInputDialog("What is your name player 1");
     this.p1 = new PlayerPanel(player1Name1);
@@ -59,8 +59,7 @@ public TwoDicePigPanel(String player1Name, String player2Name) {
     add(panel, BorderLayout.SOUTH);
   }
   
-``
-
+```
 [Here is the source code.](https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Dice)
 
 To wrap up the entire learning of Java, this project helped to understand and make a frame of the knowledge regarding what the programming is. Java was complicated for newbies to enter the software engineering field, but I could step forward to the next level of development with the various assignments and projects during the class.
