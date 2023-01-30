@@ -15,8 +15,10 @@ summary: "A Two-dice rolling game that created in ICS 111."
 
 This project was done in ICS 111 Introduction to Computer Science during the Spring 2021 semester after I changed my major from Political Science to Computer Science. Personally, it was the hardest time to acquire the concept of programming in this field, but it resulted in a big asset for me to ponder my overall programming projects. We learned Java language and were introduced to GUI programming to create a two-dice pig game. 
 
-<img width="400px" src="../img/Nameplayer.jpeg">
-<img width="400px" src="../img/rolldice.jpeg">
+<div class="text-center p-4">
+  <img width="400px" src="../img/Nameplayer.jpeg">
+  <img width="400px" src="../img/rolldice.jpeg">
+</div>
 
 The goal for this project was to create the two-dice game graphically with a JPanel that can store a group of elements in the code. Also, we had to use a JFrame, which acts as the main window of an application. 
 
