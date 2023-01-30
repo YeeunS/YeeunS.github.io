@@ -11,8 +11,9 @@ labels:
   - Database
 summary: "A Banker Database Program that deals with the customers' records and stores them in the database, completed in ICS212."
 ---
-
-<img width="300px" src="../img/Banker.jpeg">
+<div class="text-center p-4">
+  <img width="300px" src="../img/Banker.jpeg">
+</div>
 
 This project was done in the ICS 212 program structure class in Fall 2022 semester. First we were given to create a program that stores information about account numbers, names, and addresses using C language. The project that I’m showing is built by C++. The program is controlled by a user-interface and database that allow users to interact with other options. The general idea is that to access the database in software, the banker interacts with the user-interface, which displays data and accepts inputs while accessing the database part. After building a user-interface, we were assigned to capsulize our database by defining the given classes that contain the several methods.
 
