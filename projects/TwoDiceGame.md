@@ -32,7 +32,7 @@ To make the program function, it should add the following functionality to it.
 
 Here is the code of how it works.
 
-```
+```java
 public TwoDicePigPanel(String player1Name, String player2Name) {
     String player1Name1 = JOptionPane.showInputDialog("What is your name player 1");
     this.p1 = new PlayerPanel(player1Name1);
