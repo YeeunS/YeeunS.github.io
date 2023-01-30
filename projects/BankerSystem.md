@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Banking.png
+image: img/Banking.jpeg
 title: "Banker System"
 date: 2022
 published: true
@@ -16,13 +16,21 @@ summary: "A Banker Database Program that deals with the customers' records and s
 
 This project was done in the ICS 212 program structure class in Fall 2022 semester. First we were given to create a program that stores information about account numbers, names, and addresses using C language. The project that I’m showing is built by C++. The program is controlled by a user-interface and database that allow users to interact with other options. The general idea is that to access the database in software, the banker interacts with the user-interface, which displays data and accepts inputs while accessing the database part. After building a user-interface, we were assigned to capsulize our database by defining the given classes that contain the several methods.
 
+
 The user-interface part takes care of the following tasks.
+
 -It displays an introductory message at the beginning, menu, and menu options.
+
 -add: it adds a new record in the database in descending order.
+
 -printall: it prints all records in the database in descending order.
+
 -find: It finds records with a specified account #.
+
 -delete: it deletes existing records from the database using the account # as a key.
+
 -quit: it quits the program properly.
+
 
 In the database part, compared to the project 1 built by C#, we also used constructor and destructor, which are the special member functions of the class. Constructor was used to initialize the object of the class, and the destructor was called by the compiler when the object was destroyed.
 
