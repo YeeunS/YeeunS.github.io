@@ -12,5 +12,5 @@ labels:
 summary: "A Two-dice rolling game that created in ICS 111."
 ---
 
-<img width="300px" src="../img/Banker.jpeg">
+<img width="400px" src="../img/Twodicegame.jpeg">
 
