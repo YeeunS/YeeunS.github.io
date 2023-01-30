@@ -6,9 +6,8 @@ title: "Graphical Two-Dice Pig Game"
 date: 2021
 published: true
 labels:
-  - C++
-  - Unix
-  - Database
+  - Java
+  - Eclipse
 summary: "A Two-dice rolling game that created in ICS 111."
 ---
 
