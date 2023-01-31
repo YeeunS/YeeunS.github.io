@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - Eclipse
-summary: "A Two-dice rolling game that created in ICS 111."
+summary: "A Sudoku Puzzle Game using Java for the extension of GUI."
 ---
 
 <img width="400px" src="../img/sudokuthumb.jpeg">
