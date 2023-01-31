@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/.jpeg
+image: img/legosudoku.jpeg
 title: "Sudoku Puzzle Game"
 date: 2021
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A Two-dice rolling game that created in ICS 111."
 ---
 
-<img width="400px" src="../img/Sudokugame.jpeg">
+<img width="400px" src="../img/sudokuthumb.jpeg">
 
 This project was done after the spring semester in 2021. For the extension of GUI using Java language, I created a simple sudoku puzzle game to enhance my technical skills regarding utilizing programming languages, and preparing for the new field. 
 
@@ -72,5 +72,5 @@ public class SudokuPuzzle {
   }
   
 ```
-[Here is the source code.](https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Dice)
+[Here is the source code.](https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Sudoku)
 
