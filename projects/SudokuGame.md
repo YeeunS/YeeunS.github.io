@@ -13,7 +13,7 @@ summary: "A Sudoku Puzzle Game using Java for the extension of GUI."
 
 <img width="400px" src="../img/sudokuthumb.jpeg">
 
-This project was done after the spring semester in 2021. For the extension of GUI using Java language, I created a simple sudoku puzzle game to enhance my technical skills regarding utilizing programming languages, and preparing for the new field. 
+This project was done after the spring semester in 2021. For the extension of GUI using Java language, I created a simple sudoku puzzle game to enhance my technical skills regarding utilizing programming languages, and preparing for the new software field. 
 
 It is a number placement puzzle game consisting of a simple 9x9 grid, with some of the cells containing numbers. For players, the job is to fill in the blank cells with the digits from 1 to 9 in a way that no digits repeat in each row, column, and inner 3x3 square. 
 
