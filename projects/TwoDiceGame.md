@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - Eclipse
-summary: "A Two-dice rolling game using Java GUI programming."
+summary: "A Two-dice rolling game created by using Java langauge for the purpsoe of practice in GUI applicaiton."
 ---
 
 <img width="400px" src="../img/Twodicegame.jpeg">
