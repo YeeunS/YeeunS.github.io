@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - Eclipse
-summary: "A Sudoku Puzzle Game using Java regarding extension of GUI application."
+summary: "A Sudoku Puzzle Game using Java language regarding extension of GUI application."
 ---
 
 <img width="400px" src="../img/sudokuthumb.jpeg">
