@@ -8,7 +8,7 @@ published: true
 labels:
   - Java
   - Eclipse
-summary: "A Two-dice rolling game that created in ICS 111."
+summary: "A Two-dice rolling game using Java GUI programming."
 ---
 
 <img width="400px" src="../img/Twodicegame.jpeg">
