@@ -17,7 +17,7 @@ This project was done after the spring semester in 2021. For the extension of GU
 
 It is a number placement puzzle game consisting of a simple 9x9 grid, with some of the cells containing numbers. For players, the job is to fill in the blank cells with the digits from 1 to 9 in a way that no digits repeat in each row, column, and inner 3x3 square. 
 
-To create a drawing surface, I defined a subclass of SudokuPanel and created an object beloning to this class and used it in my program. Other fundamental subclasses were defined to make the program show the window so that the player actually access it.
+To create a drawing surface, I defined a subclass of SudokuPanel and created an object beloning to this class and used it in my program. Other fundamental subclasses were defined to make the program show the window so that the player can access it.
 
 Here is the image of how the game looks.
 
