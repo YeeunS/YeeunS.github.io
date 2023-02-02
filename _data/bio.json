@@ -57,8 +57,33 @@
         "Update the website and develop different servers",
         "Design and build students' study materials for NICE(New Intensive Courses in English) program"
       ]
+    }, 
+    {
+      "company": "Sookmyung's Women's University",
+      "position": "Tutor associated in department of psychology",
+      "startDate": "2017-04",
+      "endDate": "2019-10",
+      "summary": "Teach and assist students majoring in psychology",
+      "highlights": [
+        "Prepare each lecture's materials and assist students who take psychology lectures."
+      ]
     }
   ],
+
+  "Activities": [
+    {
+      "company": "Sookmyung's Women's University",
+      "startDate": "2017-03",
+      "endDate": "2019-12",
+      "summary": "Sookmyung's Women's University Student Council",
+      "highlights": [
+        "Initiate, implement, and complete projects regarding college administration.",
+        "Help students to share student's ideas, interests, and concerns with other faculties.",
+        "Gather volunteer activities requested to college and arrange the event's annual schedule."
+      ]
+    }
+  ],
+
   "awards": [
     {
       "title": "International Undergraduate Student Scholarship",
