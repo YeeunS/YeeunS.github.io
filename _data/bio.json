@@ -39,7 +39,7 @@
     },
     {
       "institution": "Sookmyung's Women's University, Seoul, South Korea",
-      "area": "Psychology",
+      "area": "Psychology (transfer to UHM)",
       "studyType": "B.A.",
       "startDate": "2017-03",
       "endDate": "2019-12 (transfer to UHM)",     
@@ -71,10 +71,7 @@
   ],
   "Activities": [
     {
-      "company": "Sookmyung's Women's University",
-      "startDate": "2017-03",
-      "endDate": "2019-12",
-      "summary": "Sookmyung's Women's University Student Council",
+      "title": "Sookmyung's Women's University Student Council",
       "highlights": [
         "Initiate, implement, and complete projects regarding college administration.",
         "Help students to share student's ideas, interests, and concerns with other faculties.",
