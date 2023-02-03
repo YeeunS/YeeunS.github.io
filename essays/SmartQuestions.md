@@ -9,7 +9,9 @@ labels:
   - smart questions
 ---
 
-<img class="img-fluid" src="../img/smartquestions.jpeg">
+<div class="text-center p-4">
+  <img class="img-fluid" src="../img/smartquestions.jpeg">
+</div>  
 
 ## Introduction: Ask and Answer the Questions in a Smart Way
 
