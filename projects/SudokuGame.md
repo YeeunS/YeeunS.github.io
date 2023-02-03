@@ -11,7 +11,9 @@ labels:
 summary: "A Sudoku Puzzle Game using Java language regarding extension of GUI application."
 ---
 
-<img width="400px" src="../img/sudokuthumb.jpeg">
+<div class="text-center p-4">
+  <img width="400px" src="../img/sudokuthumb.jpeg">
+</div>
 
 This project was done after the spring semester in 2021. For the extension of GUI using Java language, I created a simple sudoku puzzle game to enhance my technical skills regarding utilizing programming languages, and preparing for the new software field. 
 
