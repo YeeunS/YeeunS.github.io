@@ -10,7 +10,7 @@ labels:
   - Reflection
 ---
 
-<img width="400px" src="../img/illustration.png">
+<img width="400px" src="../img/illustration.jpeg">
 
 ##Pre-Start
 It is irresistible to borrow my personal background and it might be an appropriate starting point to describe my journey. I followed a social science path to get a bachelor degree of art science, especially psychology in Korea. And this degree was a base for the higher level of my education to achieve a doctoral degree. Following up the studying, I started losing my confidence whether I can achieve my ultimate goal, so I seeked to find other ways with open-minded possibilities. After transferring to UHM, it was challenging to enter a totally different field which is computer science. My journey to software engineering just has started.
