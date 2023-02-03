@@ -69,13 +69,16 @@
       ]
     }
   ],
-  "Activities": [
+  "volunteer": [
     {
-      "title": "Sookmyung's Women's University Student Council",
+      "organization": "Sookmyung's Women's University",
+      "position": "Sookmyung's Women's University Student Council Member",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "Sookmyung's Women's University Ambassador and Student Council Member",
       "highlights": [
-        "Initiate, implement, and complete projects regarding college administration.",
-        "Help students to share student's ideas, interests, and concerns with other faculties.",
-        "Gather volunteer activities requested to college and arrange the event's annual schedule."
+        "Worked with other team members to create easy to understand website development curriculum", 
+        "Taught the fundamentals of Javascript, CSS and HTML to highschool students"
       ]
     }
   ],
