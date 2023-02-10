@@ -11,7 +11,7 @@ labels:
   - IntelliJ
 ---
 
-<img width="400px" src="../img/illustration.jpeg">
+<img width="400px" src="../img/ESLint.jpeg">
 
 ## Coding Grammar
 
