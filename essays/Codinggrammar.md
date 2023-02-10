@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Solid style, Get a Point"
+title: "Solid Style, Get a Point"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-09
 published: true
