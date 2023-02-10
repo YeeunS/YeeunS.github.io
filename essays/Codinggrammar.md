@@ -23,5 +23,5 @@ Having a new entry on ESLint with IntelliJ, as an intermediate  of software engi
 
 ## Don’t be Afraid
 
-All in all, those marks, regardless of green or red color, using ESLint makes me feel frustrated and it requires me to catch the errors even in small details. At the very beginning of getting familiar with ESLint with IntelliJ, I was not confident if I could get into this IDE. Yet, whenever I practice and play with it, it improves my quality of technique on programming.
+All in all, those marks, regardless of green or red color, using ESLint makes me feel frustrated and it requires me to catch the errors even in small details. At the very beginning of getting familiar with ESLint with IntelliJ, I was not confident if I could get into this IDE. Yet, whenever I practice and play with it, it improves my quality of technique on programming. Personally, I wish I had learned it before starting this ICS314 class so that I could systematize my coding style following gerneralized coding styles. I could enjoy the integration with Github Desktop which can push and pull my repositories directly. I expect to further utlize those platforms to enhance the quality of my programming with coding standards.
 
