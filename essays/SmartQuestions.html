@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Smart Questions with Brilliant Answers | Yeeun Shin | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/YeeunS.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yeeun Shin | Professional Portfolio">
+    <meta property="og:url" content="https://YeeunS.github.io/essays/SmartQuestions.html">
+    <meta property="og:title" content="Smart Questions with Brilliant Answers | Yeeun Shin | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/YeeunS.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Smart Questions with Brilliant Answers | Yeeun Shin | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Yeeun Shin</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Smart Questions with Brilliant Answers</h1>
+  <span class="date">26 Jan 2023</span>
+  <hr>
+  <div class="text-center p-4">
+  <img class="img-fluid" src="../img/smartquestions.jpeg" />
+</div>
+
+<h2 id="introduction-ask-and-answer-the-questions-in-a-smart-way">Introduction: Ask and Answer the Questions in a Smart Way</h2>
+
+<p>As a strong way of software engineering skills, communication is the most important aspect to handle technical issues. Now the use of open resources has been used widely, we can encounter numerous questions that require professional answers. And also we can realize that there are many people who want the answers without any steps, only focusing on the conclusion. This is not an appropriate approach when you face difficulties in the software development world. When you need help from technicians, it is essential to prepare how to ask questions before you get into the problem solving process.</p>
+
+<p>Before you ask, take your time and organize what you are having trouble with. This might take you to fix the problem by yourself, and help to direct other people with similar problems by connecting the search terms to what will be your problem and solution. When you ask, state exactly what your situation is. To be specific, vague and less information give the confusion to understand what the point is. It is better to specify the questions as much as possible. The thing you have to keep in mind is that it is also crucial not to ask different issues at the same time since this might distract the central point that you want to focus on.</p>
+
+<p>Not only is the smart question important, smart answers also give a way you can improve your software engineering skills. Depending on the questions, you can easily get the background information that you have to prepare for answering the questions. Proper answers should include relevant details, and also summarize enormous amounts of information to provide the answers in a smart way.</p>
+
+<p>Here are examples of smart question and not-smart question.</p>
+
+<h2 id="example1-a-smart-question">Example1: A Smart Question</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Suppose a1, b1, c1, and d1 point to heap memory, and my numerical code has the following core loop.
+
+const int n = 100000;
+
+for (int j = 0; j &lt; n; j++) {
+    a1[j] += b1[j];
+    c1[j] += d1[j];
+}
+This loop is executed 10,000 times via another outer for loop. To speed it up, I changed the code to:
+
+for (int j = 0; j &lt; n; j++) {
+    a1[j] += b1[j];
+}
+
+for (int j = 0; j &lt; n; j++) {
+    c1[j] += d1[j];
+}
+
+The question turned out to be of no relevance, as the behavior severely depends on the sizes of the arrays (n) and the CPU cache. 
+So if there is further interest, I rephrase the question:
+
+Could you provide some solid insight into the details that lead to the different cache behaviors 
+as illustrated by the five regions on the following graph?
+
+It might also be interesting to point out the differences between CPU/cache architectures, 
+by providing a similar graph for these CPUs.
+
+</code></pre></div></div>
+<p><a href="https://stackoverflow.com/questions/8547778/why-are-elementwise-additions-much-faster-in-separate-loops-than-in-a-combined-l">Smart question from StackOverflow</a></p>
+
+<p>Here you can see that the developer provides what she/he has a problem, and asks for solid insight into the details regarding the issues. And also, it clearly describes the sufficient information that helps to understand what the point of the problem is. Providing the full code (examples) helps to analyze the problem specifically, asking for a more technical method to solve the problem. With 2415 votes, we can see that this is a well-prepared and organized question that the author was provided with the precise solutions.</p>
+
+<h2 id="example2-a-not-smart-question">Example2: A Not-Smart Question</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Q: Calculate with java?
+
+I don't know the right name in english when you want to calculate a number with a upper small number besides. 
+Like 1,5 with a small 3 besides (the calculation of 1,5 * 1,5 * 1,5)
+
+Is there a simple and uncomplicated way to do this in java? 
+I want to calculate the volume. I hope you understand my question.
+
+Thanks.
+</code></pre></div></div>
+<p><a href="https://stackoverflow.com/questions/7695763/calculate-with-java">Not-smart question from StackOverflow</a></p>
+
+<p>Here’s another example, but not in a smart way. As you can see in the title, the author throws the issue, but it is not clear. Also in explanation, even the author mentioned “I don’t know the right name in english…”, expecting the question to be entitled to an answer. As mentioned above, the smart question has to specify the issue’s background the developer is having as much in detail.</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>Many people may think that asking questions in a smart way is not necessary, especially in the online world. However, it has to be recognized that asking questions and answering them are the most important part for not only newbies in the software engineering field, but also for all people who are seeking to develop their technical skills.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

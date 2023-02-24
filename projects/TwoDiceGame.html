@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Graphical Two-Dice Pig Game | Yeeun Shin | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/YeeunS.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yeeun Shin | Professional Portfolio">
+    <meta property="og:url" content="https://YeeunS.github.io/projects/TwoDiceGame.html">
+    <meta property="og:title" content="Graphical Two-Dice Pig Game | Yeeun Shin | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/YeeunS.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Graphical Two-Dice Pig Game | Yeeun Shin | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Yeeun Shin</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Graphical Two-Dice Pig Game</h1>
+ <div class="text-center p-4">
+  <img width="400px" src="../img/Twodicegame.jpeg" />
+ </div>
+
+<p>This project was done in ICS 111 Introduction to Computer Science during the Spring 2021 semester after I changed my major from Political Science to Computer Science. Personally, it was the hardest time to acquire the concept of programming in this field, but it resulted in a big asset for me to ponder my overall programming projects. We learned Java language and were introduced to GUI programming to create a two-dice pig game.</p>
+
+<div class="text-center p-4">
+  <img width="500px" src="../img/Nameplayer.jpeg" />
+  <img width="400px" src="../img/rolldice.jpeg" />
+</div>
+
+<p>The goal for this project was to create the two-dice game graphically with a JPanel that can store a group of elements in the code. Also, we had to use a JFrame, which acts as the main window of an application.</p>
+
+<p>To make the program function, it should add the following functionality to it.</p>
+
+<p>-It asks for the player names and uses them.</p>
+
+<p>-It asks for the number of points to determine who wins and use it.</p>
+
+<p>-It informs the players what is going on with each roll.</p>
+
+<p>Here is the code of how it works.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="nf">TwoDicePigPanel</span><span class="o">(</span><span class="nc">String</span> <span class="n">player1Name</span><span class="o">,</span> <span class="nc">String</span> <span class="n">player2Name</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">String</span> <span class="n">player1Name1</span> <span class="o">=</span> <span class="nc">JOptionPane</span><span class="o">.</span><span class="na">showInputDialog</span><span class="o">(</span><span class="s">"What is your name player 1"</span><span class="o">);</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">p1</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PlayerPanel</span><span class="o">(</span><span class="n">player1Name1</span><span class="o">);</span>
+    <span class="nc">String</span> <span class="n">player2Name1</span> <span class="o">=</span> <span class="nc">JOptionPane</span><span class="o">.</span><span class="na">showInputDialog</span><span class="o">(</span><span class="s">"What is your name player 2"</span><span class="o">);</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">p2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">PlayerPanel</span><span class="o">(</span><span class="n">player2Name1</span><span class="o">);</span>
+    <span class="nd">@SuppressWarnings</span><span class="o">(</span><span class="s">"unused"</span><span class="o">)</span>
+    <span class="nc">String</span> <span class="n">winningTotal</span> <span class="o">=</span> <span class="nc">JOptionPane</span><span class="o">.</span><span class="na">showInputDialog</span><span class="o">(</span><span class="s">"what is your total score"</span><span class="o">);</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">currentPlayer</span> <span class="o">=</span> <span class="n">p1</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">dice</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DicePanel</span><span class="o">();</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">roll</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">JButton</span><span class="o">(</span><span class="s">"Roll"</span><span class="o">);</span>
+    <span class="n">roll</span><span class="o">.</span><span class="na">addActionListener</span><span class="o">(</span><span class="k">new</span> <span class="nc">ButtonListener</span><span class="o">());</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">hold</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">JButton</span><span class="o">(</span><span class="s">"Hold"</span><span class="o">);</span>
+    <span class="n">hold</span><span class="o">.</span><span class="na">addActionListener</span><span class="o">(</span><span class="k">new</span> <span class="nc">ButtonListener</span><span class="o">());</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">turnLabel</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">JLabel</span><span class="o">(</span><span class="s">""</span><span class="o">,</span> <span class="nc">JLabel</span><span class="o">.</span><span class="na">CENTER</span><span class="o">);</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">turnScore</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>   
+    <span class="k">this</span><span class="o">.</span><span class="na">turnLabel</span><span class="o">.</span><span class="na">setText</span><span class="o">(</span><span class="n">getTurnText</span><span class="o">());</span>
+    <span class="n">setLayout</span><span class="o">(</span><span class="k">new</span> <span class="nc">BorderLayout</span><span class="o">());</span>
+    <span class="n">add</span><span class="o">(</span><span class="n">p1</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">WEST</span><span class="o">);</span>
+    <span class="n">add</span><span class="o">(</span><span class="n">p2</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">EAST</span><span class="o">);</span>
+    <span class="n">add</span><span class="o">(</span><span class="n">dice</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">CENTER</span><span class="o">);</span>
+    <span class="nc">JPanel</span> <span class="n">panel</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">JPanel</span><span class="o">();</span>
+    <span class="n">panel</span><span class="o">.</span><span class="na">setLayout</span><span class="o">(</span><span class="k">new</span> <span class="nc">BorderLayout</span><span class="o">());</span>
+    <span class="n">panel</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">roll</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">WEST</span><span class="o">);</span>
+    <span class="n">panel</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">turnLabel</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">CENTER</span><span class="o">);</span>
+    <span class="n">panel</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">hold</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">EAST</span><span class="o">);</span>
+    <span class="n">add</span><span class="o">(</span><span class="n">panel</span><span class="o">,</span> <span class="nc">BorderLayout</span><span class="o">.</span><span class="na">SOUTH</span><span class="o">);</span>
+  <span class="o">}</span>
+  
+</code></pre></div></div>
+<p><a href="https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Dice">Here is the source code.</a></p>
+
+<p>To wrap up the entire learning of Java, this project helped to understand and make a frame of the knowledge regarding what the programming is. Java was complicated for newbies to enter the software engineering field, but I could step forward to the next level of development with the various assignments and projects during the class.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

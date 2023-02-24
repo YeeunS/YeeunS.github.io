@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Banker System | Yeeun Shin | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/YeeunS.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yeeun Shin | Professional Portfolio">
+    <meta property="og:url" content="https://YeeunS.github.io/projects/BankerSystem.html">
+    <meta property="og:title" content="Banker System | Yeeun Shin | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/YeeunS.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Banker System | Yeeun Shin | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Yeeun Shin</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Banker System</h1>
+ <div class="text-center p-4">
+  <img width="300px" src="../img/Banker.jpeg" />
+</div>
+
+<p>This project was done in the ICS 212 program structure class in Fall 2022 semester. First we were given to create a program that stores information about account numbers, names, and addresses using C language. The project that I’m showing is built by C++. The program is controlled by a user-interface and database that allow users to interact with other options. The general idea is that to access the database in software, the banker interacts with the user-interface, which displays data and accepts inputs while accessing the database part. After building a user-interface, we were assigned to capsulize our database by defining the given classes that contain the several methods.</p>
+
+<p>The user-interface part takes care of the following tasks.</p>
+
+<p>-It displays an introductory message at the beginning, menu, and menu options.</p>
+
+<p>-add: it adds a new record in the database in descending order.</p>
+
+<p>-printall: it prints all records in the database in descending order.</p>
+
+<p>-find: It finds records with a specified account #.</p>
+
+<p>-delete: it deletes existing records from the database using the account # as a key.</p>
+
+<p>-quit: it quits the program properly.</p>
+
+<p>In the database part, compared to the project 1 built by C#, we also used constructor and destructor, which are the special member functions of the class. Constructor was used to initialize the object of the class, and the destructor was called by the compiler when the object was destroyed.</p>
+
+<p>Another difference between project 1 and 2 is that we implemented debug mode using preprocessor directives, instead of command line arguments. When we run the debug mode executable, additional output was printed on the screen such as the name of functions called and parameters passed.</p>
+
+<p><a href="https://github.com/YeeunS/YeeunS.github.io/tree/main/projects/Banker">Here is the source code</a></p>
+
+<p>What I could learn from this project is that the initial design of the program is essential. All I had to do was to implement pre-designed functions that required specific functions. It brought my previous experience that I used to start building the program without any pre-frame of the work. In that sense, this project became a valuable exercise for me as a guideline for future projects to be carried out, not only in the college but also in my future work field.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
