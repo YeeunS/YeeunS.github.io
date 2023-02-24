@@ -18,7 +18,7 @@ Yes, it was tricky and complicated when I first met Bootstrap. Personally, unlik
 
 Those are what I worked with raw HTML/CSS.
   
-<img width="300px" src="../img/MyhomepageHTML.png"><img width="300px" src="../img/BrowserHTML.png">
+<img src="../img/MyhomepageHTML.png" class="img-thumbnail"><img src="../img/BrowserHTML.png" class="img-thumbnail">
   
 And here’s Murphy’s Bar & Grills website and browerhistory website I played around using Bootstrap 5. 
   
