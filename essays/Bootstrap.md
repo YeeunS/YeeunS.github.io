@@ -18,11 +18,11 @@ Yes, it was tricky and complicated when I first met Bootstrap. Personally, unlik
 
 Those are what I worked with raw HTML/CSS.
   
-<img src="../img/MyhomepageHTML.png" class="img-thumbnail"><img src="../img/BrowserHTML.png" class="img-thumbnail">
+<img src="../img/MyhomepageHTML.png" style="width: 500px"><img src="../img/BrowserHTML.png" style="width: 500px">
   
 And here’s Murphy’s Bar & Grills website and browerhistory website I played around using Bootstrap 5. 
   
-<img width="300px" src="../img/Murphy.png"><img width="300px" src="../img/BrowserBoot.png">
+<img src="../img/Murphy.png" style="width: 500px"><img src="../img/BrowserBoot.png" style="width: 500px">
   
 I can describe that the two websites using Bootstrap look more “stereoscopic” than myhomepage website. Rather than placing contexts using columns, I could use a container class which gives a nice padding and alignment as shown on the websites. 
 
