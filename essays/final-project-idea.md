@@ -9,7 +9,7 @@ labels:
 ---
 
 
-1. Overview (including “The problem” and “The solution”)
+1. Overview
 
 The problem: There are countless social clubs based on UH Manoa, and it is hard for UH students to locate what they prefer. 
 
