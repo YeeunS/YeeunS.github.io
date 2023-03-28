@@ -16,11 +16,11 @@ The solution:
 
 2. Mockup page ideas
 
--Landing page
--User home page
--Admin home page
--User profile page
--Create new club page
+- Landing page
+- User home page
+- Admin home page
+- User profile page
+- Create new club page
 
 3. Use case ideas
 
