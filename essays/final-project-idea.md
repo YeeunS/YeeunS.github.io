@@ -2,14 +2,14 @@
 layout: essay
 type: essay
 title: "Final Project Idea"
-date: 2022-11-01
+date: 2023-03-28
 labels:
   - Software Engineering
   - Meteor
 ---
 
 
-1. Overview (including “The problem” and “The solution”)
+1. Overview
 
 The problem: There are countless social clubs based on UH Manoa, and it is hard for UH students to locate what they prefer. 
 
@@ -24,5 +24,4 @@ The solution: UHClub provides the lists of clubs depending on the category of de
 3. Use case ideas
 - Landing page: users go to the landing page, and can see different departments' category in the navbar. In navbar, there are department, RIOs, Register, etc.
 
-4. Beyond the basics
-- 
+
