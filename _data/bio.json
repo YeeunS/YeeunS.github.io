@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "YeeunS", "url": "http://github.com/YeeunS" },
-      { "network": "linkedin", "username": "YeeunShin", "url": "https://www.linkedin.com/in/yeeunshin5/" },
+      { "network": "linkedin", "username": "YeeunShin", "url": "https://www.linkedin.com/in/yeeunshin5/" }
     ]
   },
   "interests": [
@@ -38,7 +38,9 @@
       "endDate": "Present"
     },
     {
-      "highlight": "ICS 111"
+      "highlights": [
+        "ICS111 - \tIntro to Computer Science I"
+      ]
     },
     {
       "institution": "Sookmyung Women's University, Seoul, South Korea",
