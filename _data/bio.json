@@ -35,23 +35,17 @@
       "area": "Computer Science (expected Spring, 2024)",
       "studyType": "B.S.",
       "startDate": "2020-01-13",
-      "endDate": "Present",
-      "highlights": [
-        "ICS111 - Intro to Computer Science I",
-        "ICS211 - Intro to Computer Science II",
-        "ICS212 - Program Structure",
-        "ICS141 - Discrete Mathematics I",
-        "ICS241 - Discrete Mathematics II",
-        "ICS311 - Algorithms",
-        "ICS314 - Software Engineering I"
-      ]
+      "endDate": "Present"
+    },
+    {
+      "highlight": "ICS 111"
     },
     {
       "institution": "Sookmyung Women's University, Seoul, South Korea",
       "area": "Psychology (transfer to UHM)",
       "studyType": "B.A.",
       "startDate": "2017-03",
-      "endDate": "2019-12 (transfer to UHM)"
+      "endDate": "2019-12"
     }
   ],
   "work": [
