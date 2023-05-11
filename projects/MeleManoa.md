@@ -31,7 +31,11 @@ Especially, when we have to show the website updated, we had to deploy whenever 
 Here are images of our website.
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/landing.png">
+  <img width="600px" src="../img/profile.png">
+</div>
+
+<div class="text-center p-4">
+  <img width="600px" src="../img/editprofile.png">
 </div>
 
 <div class="text-center p-4">
@@ -42,7 +46,7 @@ Here are images of our website.
   <img width="600px" src="../img/groups.png">
 </div>
 
-[Mele-Manoa website.](http://138.68.69.79/)
+[Mele-Manoa website](http://138.68.69.79/)
 
-[Mele-Manoa homepage.](https://mele-manoa.github.io/)
+[Mele-Manoa homepage](https://mele-manoa.github.io/)
 
