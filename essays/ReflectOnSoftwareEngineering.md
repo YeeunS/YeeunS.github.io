@@ -11,6 +11,10 @@ labels:
   - Agile Project Management
 ---
 
+<div class="text-center p-4">
+  <img width="600px" src="../img/webapp.png">
+</div>
+
 ## What I learned so far
 
 During this course, I gained a deeper understanding of various software engineering concepts. In particular, I found two topics particularly interesting and relevant beyond web application development: Open Source Software Development and Agile Project Management.
