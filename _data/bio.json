@@ -1,0 +1,131 @@
+{
+  "basics": {
+    "name": "Yeeun Shin",
+    "label": "Student",
+    "picture": "https://github.com/YeeunS.png",
+    "email": "yeeun2@hawaii.edu",
+    "phone": "808-501-8330",
+    "website": "https://YeeunS.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "YeeunS", "url": "http://github.com/YeeunS" },
+      { "network": "linkedin", "username": "YeeunShin", "url": "https://www.linkedin.com/in/yeeunshin5/" }
+    ]
+  },
+  "interests": [
+    { "name": "Interactive media" },
+    { "name": "Algorithms" },
+    { "name": "Software Engineering" },
+    { "name": "3D Graphics" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML/CSS" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Git/GitHub", "Linux", "Windows" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-01-13",
+      "endDate": "Present",
+      "courses": [
+        "ICS111-Intro to Computer Science I",
+        "ICS211-Intro to Computer Science II",
+        "ICS212-Program Structure",
+        "ICS141-Discrete Mathematics I",
+        "ICS241-Discrete Mathematics II",
+        "ICS311-Algorithms",
+        "ICS314-Software Engineering I"
+      ]
+    },
+    {
+      "institution": "Sookmyung Women's University, Seoul, South Korea",
+      "area": "Psychology (transfer to UHM)",
+      "studyType": "B.A.",
+      "startDate": "2017-03",
+      "endDate": "2019-12"
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Outreach College",
+      "position": "Administrative Assistant",
+      "website": "https://www.outreach.hawaii.edu/international/nice/",
+      "startDate": "2022-01-02",
+      "endDate": "Present",
+      "summary": "International Program Assistant/ Technician",
+      "highlights": [
+        "Update the website and develop different servers",
+        "Design and build students' study materials for NICE(New Intensive Courses in English) program"
+      ]
+    }, 
+    {
+      "company": "Sookmyung Women's University",
+      "position": "Tutor associated in department of psychology",
+      "startDate": "2017-04",
+      "endDate": "2019-10",
+      "summary": "Teach and assist students majoring in psychology",
+      "highlights": [
+        "Prepare each lecture's materials and assist students who take psychology lectures."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Sookmyung Women's University",
+      "position": "Student Council Member",
+      "startDate": "2017",
+      "endDate": "2019",
+      "summary": "School Ambassador for the advertisement and Student Council Member",
+      "highlights": [
+        "Initiate, implement, and plan the projects regarding college administration", 
+        "Collect outsourcing and help students to increase the participation of school events."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "International Undergraduate Student Scholarship",
+      "date": "2020-Present",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen who have a 3.8 GPA upon the time of application to UH Manoa."
+    },
+    {
+      "title": "ISS Merit Scholarship",
+      "date": "2022-present",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded to students who have high GPA 3.3 above."
+    },
+    {
+      "title": "ISS Spring Forward Scholarship",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded to students who have high GPA 3.0 above."
+    },
+    {
+      "title": "ISS Summer Scholarship",
+      "date": "2021-2022",
+      "awarder": "University of Hawaii",
+      "summary": "Scholarships awarded to students who enrolled the summer semester with GPA 2.5 above."
+    },
+    {
+      "title": "Dean's List",
+      "date": "Fall 2020-Spring 2022",
+      "awarder": "University of Hawaii",
+      "summary": "The Dean’s List recognizes students who have a superior academic record, i.e., a minimum current grade point average of 3.5 for 12 or more credits of academic coursework."
+    }  
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

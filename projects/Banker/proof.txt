@@ -1,0 +1,17 @@
+Script started on Sat Nov 26 00:15:41 2022
+]0;yeeun2@uhx02:~/project2[?1034huhx02:/home/y/yeeun2/project2% make -f release.mak
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -o project llist.o user_interface.o
+]0;yeeun2@uhx02:~/project2uhx02:/home/y/yeeun2/project2% make -f debug.mak
+g++ -o project_debug llist.o user_interface.o
+]0;yeeun2@uhx02:~/project2uhx02:/home/y/yeeun2/project2% make -f clean -f debug.mak
+make: clean: No such file or directory
+rm project_debug llist.o user_interface.o
+g++ -ansi -pedantic-errors -Wall -c llist.cpp -DDEBUGMODE
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp -DDEBUGMODE
+g++ -o project_debug llist.o user_interface.o
+]0;yeeun2@uhx02:~/project2uhx02:/home/y/yeeun2/project2% exit
+exit
+
+Script done on Sat Nov 26 00:16:05 2022

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Designing Coding Castle | Yeeun Shin | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/YeeunS.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yeeun Shin | Professional Portfolio">
+    <meta property="og:url" content="https://YeeunS.github.io/essays/designpattern.html">
+    <meta property="og:title" content="Designing Coding Castle | Yeeun Shin | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/YeeunS.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Designing Coding Castle | Yeeun Shin | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Yeeun Shin</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Designing Coding Castle</h1>
+  <span class="date">27 Apr 2023</span>
+  <hr>
+  <h2 id="design-castle">Design castle</h2>
+
+<p>As a learner of programming, design pattern is another new scope to achieve our final project in ICS class. In software engineering, a design pattern isn’t a finished design that can be transformed directly into code. Compared to a library or a framework, which can be inserted and used right away, I realized that the design pattern is more of a template to approach the problem at hand. It actually provides the information and solution that can be used in many different situations. While working on our project with my teammates, we basically used Meteor-Application-Template-React, modifying some codes to create our own data. We used different types of patterns in our final project, which organizes lots of codes and classes into larger structures so that all files can be maintained strongly.</p>
+
+<h2 id="mvc-design-pattern">MVC Design Pattern</h2>
+
+<p>The model-view-controller (MVC) design pattern is the earliest architectural pattern that is made up of three parts: model, view, and controller. In our case, the user interface conveyed by React is representing the view. MongoDB stands for the model that stores our data. And the controller is represented by the React Router that input is directed here first, processing the request through the model and passing it back to view.</p>
+
+<h2 id="singleton-pattern">Singleton Pattern</h2>
+
+<p>Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.</p>
+
+<p>Here’s an example of a singleton pattern from our project.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Mongo</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">meteor/mongo</span><span class="dl">'</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">SimpleSchema</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">simpl-schema</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nx">PeopleCollection</span> <span class="p">{</span>
+  <span class="kd">constructor</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">PeopleCollection</span><span class="dl">'</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">collection</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Mongo</span><span class="p">.</span><span class="nx">Collection</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+
+    <span class="k">this</span><span class="p">.</span><span class="nx">schema</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">SimpleSchema</span><span class="p">({</span>
+      <span class="na">email</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+      <span class="na">name</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+      <span class="na">image</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+      <span class="na">instrument</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">type</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+        <span class="na">allowedValues</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Guitar</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Bass</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Drums</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Vocals</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Piano</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Strings</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Winds</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Percussion</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Brass</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Other</span><span class="dl">'</span><span class="p">],</span>
+        <span class="na">defaultValue</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Other</span><span class="dl">'</span><span class="p">,</span>
+      <span class="p">},</span>
+      <span class="na">genre</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">type</span><span class="p">:</span> <span class="nb">String</span><span class="p">,</span>
+        <span class="na">allowedValues</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Rock</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Jazz</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">EDM</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Dubstep</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Country</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Pop</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">Classical</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">RhythmAndBlues</span><span class="dl">'</span><span class="p">],</span>
+        <span class="na">defaultValue</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Rock</span><span class="dl">'</span><span class="p">,</span>
+      <span class="p">},</span>
+      <span class="p">...</span>
+</code></pre></div></div>
+<p>Our project, Mele Manoa is a web application designed to bring musicians of UH together for jam sessions or performing bands. It is an easy way for them to find others with similar tastes and compatible musical abilities, by allowing students to create a profile indicating their musical tastes, their musical capabilities, and their musical goals.</p>
+
+<h2 id="continued">Continued</h2>
+
+<p>First thought of our project is that the theme seemed simple and straightforward to save our database. As the project is processed rapidly, we had to save lots of data in our collections so that it actually works as a web application. Still, it is challenging to finalize the project, but design patterns are powerful equipment for developers to understand how the different types of codes are bound together. It eventually helps me to get a better understanding of how common and useful they are.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
