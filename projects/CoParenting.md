@@ -14,10 +14,6 @@ labels:
 summary: "Internal Co-Parenting Plan Builder"
 ---
 
-<div class="text-center p-4">
-  <img width="600px" src="../img/landing.png">
-</div>
-
 As a capstone project, me and my teammates worked on internal Co-Parenting Plan Builder for our sponsors and clients. 
 
 Our aim to achieve the project is that we help separating and divorcing parents create Co-Parenting Plans so that they both understand their rights and responsibilities in order to reduce parental conflict and create better outcomes for children.  
@@ -30,21 +26,20 @@ We used PHP based framework with HTML/CSS format style, building each page with 
 Here are images of our internal builder website.
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/profile.png">
+  <img width="600px" src="../img/Parties.png">
 </div>
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/editprofile.png">
+  <img width="600px" src="../img/Children.png">
 </div>
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/discover.png">
+  <img width="600px" src="../img/Schedule.png">
 </div>
 
 <div class="text-center p-4">
-  <img width="600px" src="../img/groups.png">
+  <img width="600px" src="../img/Support.png">
 </div>
 
-[Mele-Manoa website](http://138.68.69.79/)
+[Co-Parenting Plan website](https://coparentingplan.site/)
 
-[Mele-Manoa homepage](https://mele-manoa.github.io/)
