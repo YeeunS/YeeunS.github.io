@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/mele-manoa.png
+image: img/CoParenting_Logo.jpeg
 title: "CoParenting"
 date: 2024
 published: true
