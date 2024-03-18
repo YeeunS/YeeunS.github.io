@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/FamilyMediation.jpeg
+image: img/FamilyMediation.png
 title: "Family Mediation Hawaii Internal Builder"
 date: 2024
 published: true
