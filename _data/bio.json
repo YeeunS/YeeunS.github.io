@@ -6,7 +6,7 @@
     "email": "yeeun2@hawaii.edu",
     "phone": "808-501-8330",
     "website": "https://YeeunS.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "summary": "I am a React Developer with strong OOP knowledge in Java, proficient in HTML, CSS, JavaScript, and web services (JSON, REST). Experienced with frameworks like Spring, Angular, and ReactJS, with a focus on developing RESTful web services. Excellent troubleshooting, analytical, and communication skills.",
     "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "YeeunS", "url": "http://github.com/YeeunS" },
@@ -47,11 +47,24 @@
   ],
   "work": [
     {
+      "company": "Antra, Inc",
+      "position": "React Developer",
+      "startDate": "2024",
+      "endDate": "present",
+      "summary": "Software Developer",
+      "highlights": [
+        "Design and develop responsive web applications using ReactJS.",
+        "Utilize HTML, CSS, and JavaScript to create user-friendly interfaces.",
+        "Develop and integrate RESTful web services for efficient data handling.",
+        " Implement Java features, including lambda expressions and Stream API, in application development."
+      ]
+    },
+    {
       "company": "UH Manoa Outreach College",
       "position": "Administrative Assistant",
       "website": "https://www.outreach.hawaii.edu/international/nice/",
-      "startDate": "2022-01-02",
-      "endDate": "Present",
+      "startDate": "2022",
+      "endDate": "2024",
       "summary": "International Program Assistant/ Technician",
       "highlights": [
         "Update the website and develop different servers",
@@ -61,8 +74,8 @@
     {
       "company": "Sookmyung Women's University",
       "position": "Tutor associated in department of psychology",
-      "startDate": "2017-04",
-      "endDate": "2019-10",
+      "startDate": "2017",
+      "endDate": "2019",
       "summary": "Teach and assist students majoring in psychology",
       "highlights": [
         "Prepare each lecture's materials and assist students who take psychology lectures."
