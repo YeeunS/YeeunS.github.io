@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yeeun Shin",
-    "label": "Student",
+    "label": "Front-End Developer",
     "picture": "https://github.com/YeeunS.png",
     "email": "yeeun2@hawaii.edu",
     "phone": "808-501-8330",
     "website": "https://YeeunS.github.io",
-    "summary": "I am a React Developer with strong OOP knowledge in Java, proficient in HTML, CSS, JavaScript, and web services (JSON, REST). Experienced with frameworks like Spring, Angular, and ReactJS, with a focus on developing RESTful web services. Excellent troubleshooting, analytical, and communication skills.",
+    "summary": "I am a React Developer with strong OOP knowledge in Java, proficient in HTML, CSS, JavaScript, and web services (JSON, REST). Experienced with frameworks like Spring and ReactJS, with a focus on developing RESTful web services. Excellent troubleshooting, analytical, and communication skills.",
     "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "YeeunS", "url": "http://github.com/YeeunS" },
