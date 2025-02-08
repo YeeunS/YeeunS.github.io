@@ -35,13 +35,6 @@
       "studyType": "B.S.",
       "startDate": "2020-01-13",
       "endDate": "2024"
-    },
-    {
-      "institution": "Sookmyung Women's University, Seoul, South Korea",
-      "area": "Psychology (transfer to UHM)",
-      "studyType": "B.A.",
-      "startDate": "2017-03",
-      "endDate": "2019-12"
     }
   ],
   "work": [
@@ -68,29 +61,6 @@
       "highlights": [
         "Update the website and develop different servers",
         "Design and build students' study materials for NICE(New Intensive Courses in English) program"
-      ]
-    }, 
-    {
-      "company": "Sookmyung Women's University",
-      "position": "Tutor associated in department of psychology",
-      "startDate": "2017",
-      "endDate": "2019",
-      "summary": "Teach and assist students majoring in psychology",
-      "highlights": [
-        "Prepare each lecture's materials and assist students who take psychology lectures."
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Sookmyung Women's University",
-      "position": "Student Council Member",
-      "startDate": "2017",
-      "endDate": "2019",
-      "summary": "School Ambassador for the advertisement and Student Council Member",
-      "highlights": [
-        "Initiate, implement, and plan the projects regarding college administration", 
-        "Collect outsourcing and help students to increase the participation of school events."
       ]
     }
   ],
