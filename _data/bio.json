@@ -21,7 +21,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "HTML/CSS", "Prolog", "OCAML", "LISP", "PHP" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML/CSS", "Prolog", "LISP", "PHP" ]
     },
     {
       "name": "Toolsets/OS",
